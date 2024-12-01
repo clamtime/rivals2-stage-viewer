@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+body,
+canvas {
+    width: 100vw;
+    height: 100vh;
+    drag
+}
+
+label {
+    display: block;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 1vw;
+    padding-top: 1vh;
+}
+
+[data-type=stage] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+[data-type=stage] {
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border-radius: 0;
+    border: 1px solid #aaa;
+    padding: 0 4px;
+    display: inline-block;
+    /*background-color: #777;*/
+    color: white;
+}
+
+[data-type=stage]:checked {
+    background-color: #fff;
+}
+
+[type="number"] {
+    width: 60px;
+}
