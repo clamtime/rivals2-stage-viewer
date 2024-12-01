@@ -10,8 +10,8 @@ var stages = [
         "altLength": 1850,
         "isCounterpick": true,
         "plats": [
-            [450, -775, 300],
-            [450, 225, 300]
+            [450, -750, 300],
+            [450, 300, 300]
         ],
         "x_variance": 550,
         "y_variance": 0
