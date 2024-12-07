@@ -49,3 +49,8 @@ label {
 [type="number"] {
     width: 60px;
 }
+
+.line {
+    margin-top: 2vh;
+    border-bottom: 1px solid;
+}
